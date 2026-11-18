@@ -1,0 +1,1902 @@
+[
+  {
+    "packet_id": 880920,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.9,
+      "humidity": 46.3,
+      "rssi": -56,
+      "uptime": 2635454
+    },
+    "analytics": {
+      "heat_index": 29.1,
+      "dew_point": 16.2,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.9°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:50.836Z"
+  },
+  {
+    "packet_id": 880921,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 29.1,
+      "humidity": 46.4,
+      "rssi": -59,
+      "uptime": 2635454
+    },
+    "analytics": {
+      "heat_index": 29.4,
+      "dew_point": 16.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (29.1°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:50.845Z"
+  },
+  {
+    "packet_id": 880922,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 29.1,
+      "humidity": 46.3,
+      "rssi": -68,
+      "uptime": 2635454
+    },
+    "analytics": {
+      "heat_index": 29.4,
+      "dew_point": 16.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (29.1°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:50.857Z"
+  },
+  {
+    "packet_id": 880923,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 29.2,
+      "humidity": 46.1,
+      "rssi": -66,
+      "uptime": 2635454
+    },
+    "analytics": {
+      "heat_index": 29.4,
+      "dew_point": 16.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (29.2°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:50.869Z"
+  },
+  {
+    "packet_id": 880924,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 29.2,
+      "humidity": 46,
+      "rssi": -63,
+      "uptime": 2635454
+    },
+    "analytics": {
+      "heat_index": 29.4,
+      "dew_point": 16.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (29.2°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:50.881Z"
+  },
+  {
+    "packet_id": 880925,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 29.1,
+      "humidity": 45.8,
+      "rssi": -58,
+      "uptime": 2635454
+    },
+    "analytics": {
+      "heat_index": 29.3,
+      "dew_point": 16.2,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (29.1°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:50.891Z"
+  },
+  {
+    "packet_id": 880926,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 29,
+      "humidity": 45.9,
+      "rssi": -67,
+      "uptime": 2635548
+    },
+    "analytics": {
+      "heat_index": 29.2,
+      "dew_point": 16.2,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (29°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.376Z"
+  },
+  {
+    "packet_id": 880927,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.9,
+      "humidity": 45.8,
+      "rssi": -56,
+      "uptime": 2635548
+    },
+    "analytics": {
+      "heat_index": 29.1,
+      "dew_point": 16,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.9°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.380Z"
+  },
+  {
+    "packet_id": 880928,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 29.1,
+      "humidity": 45.9,
+      "rssi": -56,
+      "uptime": 2635548
+    },
+    "analytics": {
+      "heat_index": 29.3,
+      "dew_point": 16.2,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (29.1°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.383Z"
+  },
+  {
+    "packet_id": 880929,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.9,
+      "humidity": 45.8,
+      "rssi": -62,
+      "uptime": 2635548
+    },
+    "analytics": {
+      "heat_index": 29.1,
+      "dew_point": 16,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.9°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.387Z"
+  },
+  {
+    "packet_id": 880930,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.7,
+      "humidity": 46.1,
+      "rssi": -70,
+      "uptime": 2635548
+    },
+    "analytics": {
+      "heat_index": 28.9,
+      "dew_point": 16,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.7°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.391Z"
+  },
+  {
+    "packet_id": 880931,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 46.1,
+      "rssi": -57,
+      "uptime": 2635548
+    },
+    "analytics": {
+      "heat_index": 28.8,
+      "dew_point": 15.9,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.422Z"
+  },
+  {
+    "packet_id": 880932,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 45.8,
+      "rssi": -62,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.7,
+      "dew_point": 15.8,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.516Z"
+  },
+  {
+    "packet_id": 880933,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.5,
+      "humidity": 45.7,
+      "rssi": -70,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.6,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.5°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.518Z"
+  },
+  {
+    "packet_id": 880934,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.4,
+      "humidity": 45.8,
+      "rssi": -67,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.5,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.4°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.523Z"
+  },
+  {
+    "packet_id": 880935,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 45.6,
+      "rssi": -61,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.7,
+      "dew_point": 15.7,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.528Z"
+  },
+  {
+    "packet_id": 880936,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 45.7,
+      "rssi": -67,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.7,
+      "dew_point": 15.7,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.531Z"
+  },
+  {
+    "packet_id": 880937,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.8,
+      "humidity": 45.7,
+      "rssi": -66,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.9,
+      "dew_point": 15.9,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.8°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.556Z"
+  },
+  {
+    "packet_id": 880938,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 45.4,
+      "rssi": -70,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.7,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.562Z"
+  },
+  {
+    "packet_id": 880939,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 45.2,
+      "rssi": -62,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.7,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.572Z"
+  },
+  {
+    "packet_id": 880940,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.5,
+      "humidity": 45.4,
+      "rssi": -62,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.6,
+      "dew_point": 15.5,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.5°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.582Z"
+  },
+  {
+    "packet_id": 880941,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 45.5,
+      "rssi": -69,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.7,
+      "dew_point": 15.7,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.589Z"
+  },
+  {
+    "packet_id": 880942,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.5,
+      "humidity": 45.4,
+      "rssi": -61,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.6,
+      "dew_point": 15.5,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.5°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.596Z"
+  },
+  {
+    "packet_id": 880943,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.4,
+      "humidity": 45.6,
+      "rssi": -57,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.5,
+      "dew_point": 15.5,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.4°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.605Z"
+  },
+  {
+    "packet_id": 880944,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.3,
+      "humidity": 45.4,
+      "rssi": -57,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.4,
+      "dew_point": 15.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.3°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.616Z"
+  },
+  {
+    "packet_id": 880945,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.4,
+      "humidity": 45.3,
+      "rssi": -56,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.5,
+      "dew_point": 15.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.4°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.628Z"
+  },
+  {
+    "packet_id": 880946,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.4,
+      "humidity": 45.2,
+      "rssi": -66,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.5,
+      "dew_point": 15.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.4°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.637Z"
+  },
+  {
+    "packet_id": 880947,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.4,
+      "humidity": 45.4,
+      "rssi": -58,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.5,
+      "dew_point": 15.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.4°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.654Z"
+  },
+  {
+    "packet_id": 880948,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.5,
+      "humidity": 45.4,
+      "rssi": -59,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.6,
+      "dew_point": 15.5,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.5°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.662Z"
+  },
+  {
+    "packet_id": 880949,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 45.5,
+      "rssi": -59,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.7,
+      "dew_point": 15.7,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.684Z"
+  },
+  {
+    "packet_id": 880950,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.5,
+      "humidity": 45.5,
+      "rssi": -56,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.6,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.5°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.693Z"
+  },
+  {
+    "packet_id": 880951,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 45.3,
+      "rssi": -57,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.7,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.704Z"
+  },
+  {
+    "packet_id": 880952,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.7,
+      "humidity": 45.2,
+      "rssi": -57,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.8,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.7°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.714Z"
+  },
+  {
+    "packet_id": 880953,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.5,
+      "humidity": 45.2,
+      "rssi": -64,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.6,
+      "dew_point": 15.5,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.5°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.722Z"
+  },
+  {
+    "packet_id": 880954,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 45.3,
+      "rssi": -59,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.7,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.731Z"
+  },
+  {
+    "packet_id": 880955,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.7,
+      "humidity": 45.7,
+      "rssi": -58,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.8,
+      "dew_point": 15.8,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.7°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.740Z"
+  },
+  {
+    "packet_id": 880956,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.5,
+      "humidity": 46,
+      "rssi": -60,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.6,
+      "dew_point": 15.7,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.5°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.747Z"
+  },
+  {
+    "packet_id": 880957,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.5,
+      "humidity": 45.8,
+      "rssi": -65,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.6,
+      "dew_point": 15.7,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.5°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.755Z"
+  },
+  {
+    "packet_id": 880958,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.4,
+      "humidity": 45.8,
+      "rssi": -57,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.5,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.4°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.762Z"
+  },
+  {
+    "packet_id": 880959,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.5,
+      "humidity": 46,
+      "rssi": -56,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.6,
+      "dew_point": 15.7,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.5°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.770Z"
+  },
+  {
+    "packet_id": 880960,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.7,
+      "humidity": 46,
+      "rssi": -59,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.9,
+      "dew_point": 15.9,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.7°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.777Z"
+  },
+  {
+    "packet_id": 880961,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.6,
+      "humidity": 46.1,
+      "rssi": -60,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.8,
+      "dew_point": 15.9,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.6°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.785Z"
+  },
+  {
+    "packet_id": 880962,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.4,
+      "humidity": 46,
+      "rssi": -57,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.5,
+      "dew_point": 15.6,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.4°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.792Z"
+  },
+  {
+    "packet_id": 880963,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.3,
+      "humidity": 46.3,
+      "rssi": -57,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.4,
+      "dew_point": 15.7,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.3°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.801Z"
+  },
+  {
+    "packet_id": 880964,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.1,
+      "humidity": 46.1,
+      "rssi": -70,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.2,
+      "dew_point": 15.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.1°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.809Z"
+  },
+  {
+    "packet_id": 880965,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28,
+      "humidity": 46.1,
+      "rssi": -59,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.1,
+      "dew_point": 15.3,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.817Z"
+  },
+  {
+    "packet_id": 880966,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.1,
+      "humidity": 46,
+      "rssi": -59,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.2,
+      "dew_point": 15.4,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.1°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.825Z"
+  },
+  {
+    "packet_id": 880967,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.3,
+      "humidity": 45.7,
+      "rssi": -68,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.4,
+      "dew_point": 15.5,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.3°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.832Z"
+  },
+  {
+    "packet_id": 880968,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.2,
+      "humidity": 45.5,
+      "rssi": -58,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.3,
+      "dew_point": 15.3,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.2°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.838Z"
+  },
+  {
+    "packet_id": 880969,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.2,
+      "humidity": 45.2,
+      "rssi": -57,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.2,
+      "dew_point": 15.2,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.2°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.844Z"
+  },
+  {
+    "packet_id": 880970,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.2,
+      "humidity": 44.8,
+      "rssi": -67,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.2,
+      "dew_point": 15.1,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.2°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.850Z"
+  },
+  {
+    "packet_id": 880971,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 28.1,
+      "humidity": 45,
+      "rssi": -68,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 28.1,
+      "dew_point": 15,
+      "status": "WARNING",
+      "alert_active": true,
+      "status_message": "تحذير: ارتفاع في درجة الحرارة (28.1°C)"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.857Z"
+  },
+  {
+    "packet_id": 880972,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.9,
+      "humidity": 45.2,
+      "rssi": -59,
+      "uptime": 2635595
+    },
+    "analytics": {
+      "heat_index": 27.9,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:53.864Z"
+  },
+  {
+    "packet_id": 880973,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.7,
+      "humidity": 45.4,
+      "rssi": -68,
+      "uptime": 2635689
+    },
+    "analytics": {
+      "heat_index": 27.8,
+      "dew_point": 14.8,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.380Z"
+  },
+  {
+    "packet_id": 880974,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.6,
+      "humidity": 45.3,
+      "rssi": -67,
+      "uptime": 2635689
+    },
+    "analytics": {
+      "heat_index": 27.7,
+      "dew_point": 14.7,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.385Z"
+  },
+  {
+    "packet_id": 880975,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.6,
+      "humidity": 45,
+      "rssi": -69,
+      "uptime": 2635689
+    },
+    "analytics": {
+      "heat_index": 27.6,
+      "dew_point": 14.6,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.390Z"
+  },
+  {
+    "packet_id": 880976,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.7,
+      "humidity": 45.3,
+      "rssi": -57,
+      "uptime": 2635689
+    },
+    "analytics": {
+      "heat_index": 27.8,
+      "dew_point": 14.8,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.394Z"
+  },
+  {
+    "packet_id": 880977,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.7,
+      "humidity": 45.7,
+      "rssi": -58,
+      "uptime": 2635689
+    },
+    "analytics": {
+      "heat_index": 27.8,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.398Z"
+  },
+  {
+    "packet_id": 880978,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.7,
+      "humidity": 46,
+      "rssi": -65,
+      "uptime": 2635689
+    },
+    "analytics": {
+      "heat_index": 27.8,
+      "dew_point": 15,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.428Z"
+  },
+  {
+    "packet_id": 880979,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.6,
+      "humidity": 46.2,
+      "rssi": -62,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.7,
+      "dew_point": 15,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.526Z"
+  },
+  {
+    "packet_id": 880980,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.4,
+      "humidity": 46.2,
+      "rssi": -70,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.5,
+      "dew_point": 14.8,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.532Z"
+  },
+  {
+    "packet_id": 880981,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.3,
+      "humidity": 46,
+      "rssi": -59,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.4,
+      "dew_point": 14.7,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.535Z"
+  },
+  {
+    "packet_id": 880982,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.4,
+      "humidity": 45.9,
+      "rssi": -60,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.5,
+      "dew_point": 14.7,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.540Z"
+  },
+  {
+    "packet_id": 880983,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.3,
+      "humidity": 45.9,
+      "rssi": -68,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.4,
+      "dew_point": 14.6,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.543Z"
+  },
+  {
+    "packet_id": 880984,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.1,
+      "humidity": 46.2,
+      "rssi": -60,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.3,
+      "dew_point": 14.5,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.557Z"
+  },
+  {
+    "packet_id": 880985,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.2,
+      "humidity": 46.5,
+      "rssi": -64,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.4,
+      "dew_point": 14.7,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.562Z"
+  },
+  {
+    "packet_id": 880986,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.4,
+      "humidity": 46.5,
+      "rssi": -65,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.6,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.565Z"
+  },
+  {
+    "packet_id": 880987,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.2,
+      "humidity": 46.8,
+      "rssi": -65,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.4,
+      "dew_point": 14.8,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.569Z"
+  },
+  {
+    "packet_id": 880988,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.2,
+      "humidity": 47,
+      "rssi": -70,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.4,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.572Z"
+  },
+  {
+    "packet_id": 880989,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.2,
+      "humidity": 46.8,
+      "rssi": -64,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.4,
+      "dew_point": 14.8,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.576Z"
+  },
+  {
+    "packet_id": 880990,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.3,
+      "humidity": 46.7,
+      "rssi": -56,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.5,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.579Z"
+  },
+  {
+    "packet_id": 880991,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.5,
+      "humidity": 47,
+      "rssi": -64,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.7,
+      "dew_point": 15.2,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.583Z"
+  },
+  {
+    "packet_id": 880992,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.6,
+      "humidity": 47.4,
+      "rssi": -64,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.8,
+      "dew_point": 15.4,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.586Z"
+  },
+  {
+    "packet_id": 880993,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.6,
+      "humidity": 47.4,
+      "rssi": -67,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.8,
+      "dew_point": 15.4,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.589Z"
+  },
+  {
+    "packet_id": 880994,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.7,
+      "humidity": 47.3,
+      "rssi": -63,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.9,
+      "dew_point": 15.4,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.592Z"
+  },
+  {
+    "packet_id": 880995,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.5,
+      "humidity": 47.1,
+      "rssi": -58,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.7,
+      "dew_point": 15.2,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.595Z"
+  },
+  {
+    "packet_id": 880996,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.5,
+      "humidity": 46.8,
+      "rssi": -62,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.7,
+      "dew_point": 15.1,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.599Z"
+  },
+  {
+    "packet_id": 880997,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.4,
+      "humidity": 46.5,
+      "rssi": -70,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.6,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.602Z"
+  },
+  {
+    "packet_id": 880998,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.3,
+      "humidity": 46.2,
+      "rssi": -62,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.5,
+      "dew_point": 14.7,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.605Z"
+  },
+  {
+    "packet_id": 880999,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.3,
+      "humidity": 46,
+      "rssi": -69,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.4,
+      "dew_point": 14.7,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.630Z"
+  },
+  {
+    "packet_id": 881000,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.4,
+      "humidity": 46.4,
+      "rssi": -68,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.6,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.634Z"
+  },
+  {
+    "packet_id": 881001,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.4,
+      "humidity": 46.4,
+      "rssi": -63,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.6,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.638Z"
+  },
+  {
+    "packet_id": 881002,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.4,
+      "humidity": 46.6,
+      "rssi": -58,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.6,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.641Z"
+  },
+  {
+    "packet_id": 881003,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.5,
+      "humidity": 46.5,
+      "rssi": -57,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.7,
+      "dew_point": 15,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.643Z"
+  },
+  {
+    "packet_id": 881004,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.6,
+      "humidity": 46.2,
+      "rssi": -69,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.7,
+      "dew_point": 15,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.689Z"
+  },
+  {
+    "packet_id": 881005,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.5,
+      "humidity": 46.2,
+      "rssi": -64,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.6,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.695Z"
+  },
+  {
+    "packet_id": 881006,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.3,
+      "humidity": 46.6,
+      "rssi": -67,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.5,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.699Z"
+  },
+  {
+    "packet_id": 881007,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.2,
+      "humidity": 46.4,
+      "rssi": -70,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.4,
+      "dew_point": 14.7,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.704Z"
+  },
+  {
+    "packet_id": 881008,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.1,
+      "humidity": 46.2,
+      "rssi": -65,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.3,
+      "dew_point": 14.5,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.707Z"
+  },
+  {
+    "packet_id": 881009,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.2,
+      "humidity": 45.9,
+      "rssi": -65,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.3,
+      "dew_point": 14.5,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.709Z"
+  },
+  {
+    "packet_id": 881010,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.4,
+      "humidity": 45.8,
+      "rssi": -64,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.5,
+      "dew_point": 14.7,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.712Z"
+  },
+  {
+    "packet_id": 881011,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.4,
+      "humidity": 45.5,
+      "rssi": -63,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.5,
+      "dew_point": 14.6,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.716Z"
+  },
+  {
+    "packet_id": 881012,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.6,
+      "humidity": 45.8,
+      "rssi": -60,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.7,
+      "dew_point": 14.9,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.719Z"
+  },
+  {
+    "packet_id": 881013,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.8,
+      "humidity": 45.7,
+      "rssi": -69,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.9,
+      "dew_point": 15,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.722Z"
+  },
+  {
+    "packet_id": 881014,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.8,
+      "humidity": 45.6,
+      "rssi": -58,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.9,
+      "dew_point": 15,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.725Z"
+  },
+  {
+    "packet_id": 881015,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.7,
+      "humidity": 45.9,
+      "rssi": -59,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.8,
+      "dew_point": 15,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.728Z"
+  },
+  {
+    "packet_id": 881016,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.8,
+      "humidity": 45.7,
+      "rssi": -67,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.9,
+      "dew_point": 15,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.731Z"
+  },
+  {
+    "packet_id": 881017,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.8,
+      "humidity": 46.1,
+      "rssi": -58,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.9,
+      "dew_point": 15.1,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.735Z"
+  },
+  {
+    "packet_id": 881018,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.6,
+      "humidity": 46.4,
+      "rssi": -66,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.7,
+      "dew_point": 15.1,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.738Z"
+  },
+  {
+    "packet_id": 881019,
+    "device_id": "ESP32_DHT22_Node01",
+    "raw": {
+      "temperature": 27.8,
+      "humidity": 46.4,
+      "rssi": -62,
+      "uptime": 2635736
+    },
+    "analytics": {
+      "heat_index": 27.9,
+      "dew_point": 15.2,
+      "status": "NORMAL",
+      "alert_active": false,
+      "status_message": "الظروف البيئية طبيعية ومستقرة"
+    },
+    "gateway_id": "EdgeGateway_Node_PC",
+    "processed_at": "2026-11-18T08:58:56.741Z"
+  }
+]

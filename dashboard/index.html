@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نظام مراقبة إنترنت الأشياء | ESP32 & DHT22 IoT Dashboard</title>
+  
+  <!-- المكتبات المحلية بدون الحاجة للإنترنت -->
+  <script src="libs/chart.umd.min.js"></script>
+  <script src="libs/mqtt.min.js"></script>
+
+  <!-- خط وتنسيق حديث -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- رأس الصفحة (Header) -->
+  <header class="app-header">
+    <div class="header-content">
+      <div class="branding">
+        <div class="logo-icon">📡</div>
+        <div>
+          <h1>منظومة مراقبة إنترنت الأشياء (IoT Telemetry Dashboard)</h1>
+          <p class="subtitle">مادة تطوير تطبيقات إنترنت الأشياء | ESP32 + DHT22 عبر وسيط MQTT</p>
+        </div>
+      </div>
+
+      <div class="header-controls">
+        <!-- اختيار البروكر -->
+        <div class="control-group">
+          <label for="brokerSelector">الوسيط (Broker):</label>
+          <select id="brokerSelector">
+            <option value="local">محلي (Local: ws://localhost:8888)</option>
+            <option value="cloud">سحابي (EMQX Cloud: wss://broker.emqx.io)</option>
+          </select>
+        </div>
+
+        <!-- حالة الاتصال -->
+        <div id="connectionBadge" class="connection-badge status-disconnected">
+          <span class="status-dot"></span>
+          <span id="connectionText">غير متصل</span>
+        </div>
+
+        <!-- زر كتم الصوت -->
+        <button id="soundToggleBtn" class="icon-button" title="كتم/تفعيل صوت الإنذار">
+          🔔
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+
+    <!-- مخطط المسار المعماري الحي (Live Architecture Flow) -->
+    <section class="architecture-flow">
+      <div class="node-item" id="nodeEsp32">
+        <div class="node-icon">⚡</div>
+        <div class="node-info">
+          <div class="node-title">عقدة الاستشعار (ESP32)</div>
+          <div class="node-status" id="esp32Status">في انتظار البث...</div>
+        </div>
+      </div>
+      <div class="flow-arrow">➔ <span>MQTT: Raw</span> ➔</div>
+      <div class="node-item" id="nodeBroker">
+        <div class="node-icon">🔄</div>
+        <div class="node-info">
+          <div class="node-title">الوسيط (MQTT Broker)</div>
+          <div class="node-status" id="brokerStatus">متصل (Port 1883/8888)</div>
+        </div>
+      </div>
+      <div class="flow-arrow">➔ <span>MQTT: Process</span> ➔</div>
+      <div class="node-item" id="nodeGateway">
+        <div class="node-icon">🛡️</div>
+        <div class="node-info">
+          <div class="node-title">المستقبل والمعالج (Gateway)</div>
+          <div class="node-status" id="gatewayStatus">جاهز للمعالجة</div>
+        </div>
+      </div>
+      <div class="flow-arrow">➔ <span>WebSockets</span> ➔</div>
+      <div class="node-item active" id="nodeDashboard">
+        <div class="node-icon">💻</div>
+        <div class="node-info">
+          <div class="node-title">شاشة العرض (Dashboard)</div>
+          <div class="node-status">نشط وحي (Active)</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- شريط التنبيهات والإنذارات (Alert Banner) -->
+    <div id="alertBanner" class="alert-banner hidden">
+      <div class="alert-icon">⚠️</div>
+      <div class="alert-content">
+        <strong id="alertTitle">تحذير بيئي!</strong>
+        <span id="alertMessage">تم تسجيل ارتفاع غير طبيعي في المؤشرات.</span>
+      </div>
+      <button id="dismissAlertBtn" class="dismiss-btn">تجاهل ✕</button>
+    </div>
+
+    <!-- شبكة بطاقات القياس (Metrics Cards Grid) -->
+    <section class="cards-grid">
+
+      <!-- بطاقة درجة الحرارة -->
+      <div class="card card-temp">
+        <div class="card-header">
+          <span class="card-label">درجة الحرارة (Temperature)</span>
+          <span class="card-badge" id="tempBadge">طبيعي</span>
+        </div>
+        <div class="card-body">
+          <div class="metric-display">
+            <span class="metric-value" id="valTemperature">--.-</span>
+            <span class="metric-unit">°C</span>
+          </div>
+          <div class="metric-stats">
+            <span>الأدنى: <strong id="valTempMin">--</strong>°C</span>
+            <span>الأعلى: <strong id="valTempMax">--</strong>°C</span>
+          </div>
+          <div class="progress-bar-container">
+            <div id="tempProgress" class="progress-fill temp-fill" style="width: 0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- بطاقة الرطوبة -->
+      <div class="card card-humidity">
+        <div class="card-header">
+          <span class="card-label">نسبة الرطوبة (Humidity)</span>
+          <span class="card-badge" id="humidityBadge">طبيعي</span>
+        </div>
+        <div class="card-body">
+          <div class="metric-display">
+            <span class="metric-value" id="valHumidity">--.-</span>
+            <span class="metric-unit">%</span>
+          </div>
+          <div class="metric-stats">
+            <span>الأدنى: <strong id="valHumMin">--</strong>%</span>
+            <span>الأعلى: <strong id="valHumMax">--</strong>%</span>
+          </div>
+          <div class="progress-bar-container">
+            <div id="humProgress" class="progress-fill hum-fill" style="width: 0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- بطاقة الحرارة المحسوسة (Heat Index) -->
+      <div class="card card-heatindex">
+        <div class="card-header">
+          <span class="card-label">الحرارة المحسوسة (Heat Index)</span>
+          <span class="card-badge" id="heatIndexBadge">مستقر</span>
+        </div>
+        <div class="card-body">
+          <div class="metric-display">
+            <span class="metric-value" id="valHeatIndex">--.-</span>
+            <span class="metric-unit">°C</span>
+          </div>
+          <p class="metric-subtext" id="valComfortText">تقييم الراحة الحرارية: في انتظار القراءات</p>
+          <div class="metric-subdetail">
+            <span>نقطة الندى: <strong id="valDewPoint">--.-</strong>°C</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- بطاقة معلومات العقدة والشبكة -->
+      <div class="card card-device">
+        <div class="card-header">
+          <span class="card-label">بيانات العقدة والاتصال</span>
+          <span class="card-badge badge-info" id="deviceBadge">ESP32</span>
+        </div>
+        <div class="card-body">
+          <ul class="device-details-list">
+            <li>
+              <span>معرف الجهاز (Device ID):</span>
+              <strong id="valDeviceId">--</strong>
+            </li>
+            <li>
+              <span>قوة إشارة Wi-Fi (RSSI):</span>
+              <strong id="valRssi">-- dBm</strong>
+            </li>
+            <li>
+              <span>إجمالي الحزم المستلمة:</span>
+              <strong id="valPacketCount">0</strong>
+            </li>
+            <li>
+              <span>آخر تحديث:</span>
+              <strong id="valLastSeen">--:--:--</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- المخطط البياني المباشر (Real-time Chart) -->
+    <section class="chart-section">
+      <div class="section-header">
+        <div class="title-with-icon">
+          <span class="section-icon">📈</span>
+          <h2>المخطط البياني المباشر لتغيرات الحرارة والرطوبة (Real-Time Curves)</h2>
+        </div>
+        <div class="chart-actions">
+          <span class="chart-legend-item"><span class="legend-color color-temp"></span> الحرارة (°C)</span>
+          <span class="chart-legend-item"><span class="legend-color color-hum"></span> الرطوبة (%)</span>
+          <button id="clearChartBtn" class="small-btn">مسح المخطط</button>
+        </div>
+      </div>
+      <div class="chart-wrapper">
+        <canvas id="telemetryChart"></canvas>
+      </div>
+    </section>
+
+    <!-- لوحة الأوامر والتحكم عن بعد (Remote Controls) -->
+    <section class="controls-section">
+      <div class="section-header">
+        <div class="title-with-icon">
+          <span class="section-icon">🎮</span>
+          <h2>التحكم عن بعد في جهاز ESP32 (MQTT Commands)</h2>
+        </div>
+      </div>
+      <div class="buttons-bar">
+        <button id="btnLedOn" class="cmd-btn btn-success">💡 تشغيل ليد ESP32 (LED_ON)</button>
+        <button id="btnLedOff" class="cmd-btn btn-danger">🔌 إطفاء ليد ESP32 (LED_OFF)</button>
+        <button id="btnPing" class="cmd-btn btn-primary">📶 إرسال طلب فحص (PING)</button>
+        <span id="cmdStatus" class="cmd-status-text"></span>
+      </div>
+    </section>
+
+    <!-- سجل الحزم المباشر (Live Telemetry Logs) -->
+    <section class="logs-section">
+      <div class="section-header">
+        <div class="title-with-icon">
+          <span class="section-icon">📋</span>
+          <h2>سجل الحزم المباشر وفحص البيانات (Packet Inspector)</h2>
+        </div>
+        <div class="logs-actions">
+          <button id="pauseLogsBtn" class="small-btn">إيقاف مؤقت ⏸️</button>
+          <button id="clearLogsBtn" class="small-btn">تفريغ السجل 🗑️</button>
+          <button id="exportJsonBtn" class="small-btn">تصدير JSON 📥</button>
+        </div>
+      </div>
+      <div class="table-container">
+        <table class="logs-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>الوقت</th>
+              <th>الموضوع (Topic)</th>
+              <th>الحرارة (°C)</th>
+              <th>الرطوبة (%)</th>
+              <th>الحرارة المحسوسة</th>
+              <th>الحالة</th>
+              <th>بيانات الحزمة الخام (Raw JSON)</th>
+            </tr>
+          </thead>
+          <tbody id="logsTableBody">
+            <tr class="empty-row">
+              <td colspan="8">في انتظار تدفق البيانات من الوسيط (Broker)...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>مشروع مادة تطوير تطبيقات إنترنت الأشياء (Développement d'applications IoT) &bull; ESP32 &amp; DHT22 MQTT Protocol</p>
+  </footer>
+
+  <!-- السكربت البرمجي للوحة التحكم -->
+  <script src="app.js"></script>
+</body>
+</html>
+

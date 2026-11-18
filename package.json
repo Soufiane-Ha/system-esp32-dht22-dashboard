@@ -1,0 +1,30 @@
+{
+  "name": "iot-esp32-dht22-mqtt-tp",
+  "version": "1.0.0",
+  "description": "IoT Application Development - ESP32 + DHT22 MQTT Broker & Dashboard",
+  "main": "launcher.js",
+  "scripts": {
+    "start": "node launcher.js",
+    "dev": "node launcher.js",
+    "broker": "node broker/broker.js",
+    "gateway": "node gateway_receiver/receiver_gateway.js",
+    "simulator": "node simulator/esp32_simulator.js",
+    "server": "node server.js"
+  },
+  "keywords": [
+    "iot",
+    "esp32",
+    "dht22",
+    "mqtt",
+    "aedes",
+    "chartjs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "^1.2.0",
+    "chart.js": "^4.6.1",
+    "mqtt": "^5.16.1",
+    "ws": "^8.22.2"
+  }
+}
